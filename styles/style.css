@@ -1,0 +1,44 @@
+
+.navbar-section{
+    margin: 0px 100px ;
+    display: flex;
+    justify-content: space-between;  
+}
+.btn-signUp{
+    background-color: #4E47FF;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+    height: 40px;
+    padding: 0px 20px;   
+}
+.btn-signUp:hover{
+    background-color:darkblue;
+}
+
+#banner-heading{
+text-align: center;
+}
+.banner-section{
+    /* align-items: center; */
+    justify-content:space-evenly;
+    border: 2px solid burlywood;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+}
+.button-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    border: 2px solid red;
+}
+.header{
+      background-image: url('/images/Hero-bg.png');
+      background-size: contain;
+      /* background-position: center; */
+      height:400px;
+}
+/*  */
