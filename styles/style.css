@@ -8,15 +8,14 @@
     background-color: #4E47FF;
     text-align: center;
     color: white;
-    font-size: medium;
+    font-size: small;
     border-radius: 10px;
     height: 40px;
     padding: 0px 20px;   
 }
 .btn-signUp:hover{
-    background-color:darkblue;
+    background-color:rgb(148, 148, 226);
 }
-
 #banner-heading{
 text-align: center;
 }
@@ -41,4 +40,17 @@ text-align: center;
       /* background-position: center; */
       height:400px;
 }
-/*  */
+.action{
+    margin: 50px 200px;
+    display: flex;
+    border: 2px solid black;
+}
+.image-action{
+margin-left: 320px;
+/* border: 2px solid red;    */
+}
+.content-action{
+    margin-top: 0;
+    padding:30px 0px 0px 0px;
+    /* border: 2px solid yellowgreen; */
+}
