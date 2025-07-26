@@ -21,7 +21,6 @@
   /* font-weight: <weight>; */
   font-style: normal;
 }
-
 .navbar-section{
     margin: 0px 100px ;
     display: flex;
@@ -54,8 +53,8 @@ text-align: center;
 .button-banner {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100px; 
+    align-items: flex-start;
+    height: 40px; 
     /* border: 2px solid red; */
 }
 .header{
@@ -79,7 +78,6 @@ margin-left: 320px;
     /* border: 2px solid yellowgreens; */
     width: 500px;
 }
-
 .productive-users{
     margin: 50px 150px;
     /* border: 2px solid brown; */
@@ -97,7 +95,12 @@ margin-left: 320px;
     display: flex;
     justify-content: space-evenly;
 }
-
-
-
+.focus-better{
+    margin: 50px 150px;
+    border-radius: 10px;
+    background-color: #fefeff;
+}
+.focus-image{
+    border:2px soid blue
+}
 
