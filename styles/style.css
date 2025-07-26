@@ -1,3 +1,26 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-weight: 800;
+  font-size: 34px;
+  margin-top: 30px;
+}
+.inter-users{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
 
 .navbar-section{
     margin: 0px 100px ;
@@ -8,10 +31,11 @@
     background-color: #4E47FF;
     text-align: center;
     color: white;
-    font-size: small;
+    font-size: 14px;
     border-radius: 10px;
     height: 40px;
-    padding: 0px 20px;   
+    padding: 0px 20px; 
+   
 }
 .btn-signUp:hover{
     background-color:rgb(148, 148, 226);
@@ -20,30 +44,30 @@
 text-align: center;
 }
 .banner-section{
-    /* align-items: center; */
+    align-items: center;
     justify-content:space-evenly;
-    border: 2px solid burlywood;
+    /* border: 2px solid burlywood; */
     align-items: center;
     align-content: center;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 .button-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px; 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .header{
       background-image: url('/images/Hero-bg.png');
       background-size: contain;
       /* background-position: center; */
-      height:400px;
+      height:500px;
 }
 .action{
-    margin: 50px 200px;
+    margin: 50px 150px;
     display: flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .image-action{
 margin-left: 320px;
@@ -51,6 +75,29 @@ margin-left: 320px;
 }
 .content-action{
     margin-top: 0;
-    padding:30px 0px 0px 0px;
-    /* border: 2px solid yellowgreen; */
+    padding:20px 0px 0px 0px;
+    /* border: 2px solid yellowgreens; */
+    width: 500px;
 }
+
+.productive-users{
+    margin: 50px 150px;
+    /* border: 2px solid brown; */
+    border-radius: 10px;
+    /* padding: 50px 80px; */
+    /* background-color: #252432; */
+    background-color: #dcd2f3;
+    /* background-color: #4E47FF; */
+}
+.productive-content{
+    margin-top:100px;
+    padding: 20px;
+}
+.productive-percentage{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+

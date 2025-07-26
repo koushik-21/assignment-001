@@ -5,46 +5,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body>
+<body class="raleway-normal">
+
     <!-- Navbar & Banner Section -->
     <div class="header">
         <!-- Navbar section -->
         <section>
             <nav class="navbar-section">
-                <h1 style="color: #4E47FF;">LOGO</h1>
-                <button class="btn-signUp" style="margin-top: 10px;">Sign Up</button>
+                <h1 style="color: #4E47FF;" class="inter-normal">LOGO</h1>
+                <button class="btn-signUp" style=" margin-top: 30px;  ">Sign Up</button>
             </nav>
         </section>
 
         <!-- Banner Section -->
-        <section class="banner-section">
+        <div class="banner-section">
             <div>
-                <p id="banner-heading" style="border:2px solid chocolate;">Cool Dark UI Template for <br>
-                     Webflow Agencies!
+                <p id="banner-heading" style=" font-weight: 600; font-size:65px; margin-top:20px; 
+                margin-bottom: 0;">Cool Dark UI Template for <br>
+                    Webflow Agencies!
                 </p>
             </div>
-            <div style="border:2px solid red;" class="button-banner">
+            <div style="margin-top:0;" class="button-banner">
                 <button class="btn-signUp">Stay Focused</button>
             </div>
-        </section>
+        </div>
 
     </div>
 
     <!-- Action Section -->
     <div class="action">
-        <div class="content-action">
-            <h2>See It in Action</h2>
-            <p>Explore the live preview and imagine your <br> brand in this bold new look.</p>
+        <div class="content-action" >
+            <h2 style="font-weight: 700; font-size: 28px;">See It in Action</h2>
+            <p style="color:gray">Explore the live preview and imagine your <br> brand in this bold new look.</p>
             <button class="btn-signUp">Launch Live Preview</button>
         </div>
         <div class="image-action">
-            <img src="images/wc-mini.png" alt="" style="height: 220px; width:250px; border-radius: 30px;">
+            <img src="images/wc-mini.png" alt="" style="height: 230px; width:280px; border-radius: 30px;">
         </div>
     </div>
+
     <!-- Productive Users Section -->
+    <div class="productive-users">
+        <div class="productive-content" >
+            <div>
+                <p style="text-align: center;
+                font-weight: 600; font-size: 28px; color: #252432;">Joined Thousand of Productive Users</p>
+            </div>
+            <div class="productive-percentage inter-users">
+                <div>
+                    <p style="font-weight: 800; font-size: 60px; margin: 0; 
+                     color:rgb(2, 59, 247);">50k</p> 
+                    <p style="margin: 0; font-size: 15px;
+                     text-align: center;">Active Users</p>
+                </div>
+                <div>
+                    <p style="font-weight: 800; font-size: 60px; margin: 0; 
+                    color:rgb(2, 59, 247);">2M+</p> 
+                    <p style="text-align: center; margin: 0">Focus Sessions</p>
+                </div>
+                <div>
+                    <p style="font-weight: 800; font-size: 60px; margin: 0; 
+                    color:rgb(2, 59, 247);">95%</p>
+                    <p style="text-align: center; margin: 0">Satisfaction Rate</p>
+                </div>              
+            </div>
+        </div>
+    </div>
+    
 </body>
 
 </html>
