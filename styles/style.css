@@ -46,7 +46,6 @@ text-align: center;
     align-items: center;
     justify-content:space-evenly;
     /* border: 2px solid burlywood; */
-    align-items: center;
     align-content: center;
     margin-top: 0px;
 }
@@ -113,7 +112,15 @@ margin-left: 320px;
     color: white;
     font-size: 14px;
     border-radius: 10px;
-    height: 40px;
-    padding: 0px 105px; 
+    height: 50px;
+    padding: 10px 120px; 
 }
 
+.footer-services{
+    display: flex;
+    /* align-content: space-around; */
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    /* align-content: center; */
+}
