@@ -100,7 +100,20 @@ margin-left: 320px;
     border-radius: 10px;
     background-color: #fefeff;
 }
-.focus-image{
-    border:2px soid blue
+.contact-section{
+    /* border: 2px solid black; */
+    margin: 50px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-Contact{
+    background-color: #4E47FF;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 0px 105px; 
 }
 
